@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="lombok-1.12.6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/lombok-1.12.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-api-1.7.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/guava-19.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ideaLibSources/guava-19.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
