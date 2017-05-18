@@ -5,6 +5,12 @@ package classInit;
  */
 public class ClassInit {
 
+    public String getValue() {
+        return value;
+    }
+
+    private String value ="5656656";
+
     public static void main(String[] args) {
         /*System.out.println(Child.a);*/
         /*Parent[] parents = new Parent[10];*/
