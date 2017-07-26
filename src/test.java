@@ -9,5 +9,12 @@ public class test {
         int a=-17;
         int temp = a < 0? 0 : a;
         System.out.println(temp);
+
+
+         double v = 6*0.9;
+        System.out.println(Math.rint(v));
+        System.out.println(v);
+        System.out.println(true || false || false && 10  >0030 );
+
     }
 }
