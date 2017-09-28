@@ -3,7 +3,6 @@ package collection;
 import com.google.common.collect.Lists;
 import lombok.extern.java.Log;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.util.CollectionUtils;
 
 import java.util.AbstractList;
 import java.util.ArrayList;
