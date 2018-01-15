@@ -8,12 +8,16 @@ import java.lang.reflect.Proxy;
  * Created by admin on 2016/9/7.
  */
 public class BookProxy implements InvocationHandler{
+
+
     private Object target;
 
 
     public Object bind(Object target){
         this.target = target;
-        return Proxy.newProxyInstance(this.target.getClass().getClassLoader(),this.target.getClass().getInterfaces(),this);
+
+        Object o =  Proxy.newProxyInstance(this.target.getClass().getClassLoader(),this.target.getClass().getInterfaces(),this);
+        return o;
     }
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {

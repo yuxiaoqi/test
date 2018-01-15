@@ -21,6 +21,8 @@
     <JAVADOC>
       <root url="jar://$PROJECT_DIR$/lib/commons-collections4-4.1-javadoc.jar!/" />
     </JAVADOC>
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ideaLibSources/log4j-1.2.16-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>
