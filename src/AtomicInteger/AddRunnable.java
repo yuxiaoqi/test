@@ -17,4 +17,10 @@ public class AddRunnable {
     public int getValue() {
         return value;
     }
+
+    public static void main(String[] args) {
+        Long a = 100L;
+        String aa =a.toString();
+        System.out.println(aa);
+    }
 }
