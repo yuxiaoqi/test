@@ -10,8 +10,9 @@ import java.util.List;
  */
 public class ListIndexOutOfTest {
     public static void main(String[] args) {
-        //集合
+        //集合加
         List<String> strings = new ArrayList<>();
+        List<Integer> add=new ArrayList<>();
         strings.add("test");
         strings.size();
         //string
