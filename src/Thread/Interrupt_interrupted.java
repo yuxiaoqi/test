@@ -47,7 +47,7 @@ public class Interrupt_interrupted {
 
 
           //  }
-            System.out.println("线程执行结束");
+            System.out.println("线程执行结束=加个文件");
         }
     }
 
