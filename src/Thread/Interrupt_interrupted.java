@@ -18,7 +18,6 @@ public class Interrupt_interrupted {
         // 中断线程
         thread.interrupt();
 
-        sleep(7000);
         // 重新输出
 
 
