@@ -1,4 +1,4 @@
-package Thread;
+package ThreadSafe.Thread;
 
 /**
  * @ClassName:
@@ -31,7 +31,7 @@ interrupted()是Thread类的静态方法，用于检查当前线程的中断状�
         System.out.println("开始");
         try {
             interrupt(); //设置中断信号
-           // Thread.sleep(5000);
+           // ThreadSafe.Thread.sleep(5000);
             System.out.println(" 一次 "+Thread.interrupted()); // interrupted()检查当前线程的中断状态并清除中断状态。
             System.out.println(" 二次 "+Thread.interrupted());
         } catch (Exception e) {

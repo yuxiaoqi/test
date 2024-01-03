@@ -1,4 +1,4 @@
-package Thread;
+package ThreadSafe.Thread;
 
 import static java.lang.Thread.sleep;
 
@@ -31,10 +31,10 @@ public class Interrupt_interrupted {
         public void run() {
 
 
-           // while (Thread.interrupted()) {  // 这里调用 Thread.interrupted() 不是把interrupt清楚了 重新设为false
+           // while (ThreadSafe.Thread.interrupted()) {  // 这里调用 ThreadSafe.Thread.interrupted() 不是把interrupt清楚了 重新设为false
                                             // 那sleep状态下自然不会唤醒抛出异常 ChatGPT给的错误示例代码
                 // 线程执行的操作
-                //System.out.println("Thread " +"进入到while");
+                //System.out.println("ThreadSafe.Thread " +"进入到while");
                 try {
                     sleep(1000); // 可能会抛出InterruptedException异常
                 } catch (InterruptedException e) {

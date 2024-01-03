@@ -1,4 +1,4 @@
-package Thread;
+package ThreadSafe.Thread;
 
 /**
  * Created by admin on 2016/9/21.

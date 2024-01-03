@@ -5,7 +5,7 @@ public class AlternatePrinting {
     private static boolean isOne = false;
 
     public static void main(String[] args) {
-       // Thread tt =new Thread(()->printNumbers(3));
+       // ThreadSafe.Thread tt =new ThreadSafe.Thread(()->printNumbers(3));
         Thread thread1 = new Thread(() -> printNumbers(1));
         Thread thread2 = new Thread(() -> printNumbers(2));
 

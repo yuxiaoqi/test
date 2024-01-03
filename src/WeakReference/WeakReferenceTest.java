@@ -34,7 +34,7 @@ public class WeakReferenceTest {
         apple2 = null;
         appleWeakReference.get();
         System.gc();
-        Thread.sleep(1000);
+        ThreadSafe.Thread.sleep(1000);
         appleWeakReference.get();
         banner.get();*/
         System.out.println("test");

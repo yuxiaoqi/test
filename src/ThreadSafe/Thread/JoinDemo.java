@@ -1,11 +1,11 @@
-package Thread;
+package ThreadSafe.Thread;
 
 import java.util.concurrent.TimeUnit;
 
 
 /*
 * 定义：
- *   Thread 类的 interrupt() 方法用于中断线程。调用 interrupt() 方法会设置线程的中断状态。
+ *   ThreadSafe.Thread 类的 interrupt() 方法用于中断线程。调用 interrupt() 方法会设置线程的中断状态。
  *  这种中断实质上是通过设置线程的中断状态标志位为 true 来表示，
  *   但它并不会中止线程的执行。相反，它可以被线程本身检查并相应地处理中断请求。
  *意义：
@@ -27,7 +27,7 @@ public class JoinDemo {
        Thread previousThread= Thread.currentThread();
         for(int i=0;i<10;i++){
 /*
-            当=0的时候 一开始是 Thread-0线程调用main线程的join方法。那就是会等main线程执行完后
+            当=0的时候 一开始是 ThreadSafe.Thread-0线程调用main线程的join方法。那就是会等main线程执行完后
             thread -0就会被通知重新执行。后面依次 1 2 。。。。9 到9执行行结束
 
 */
@@ -37,7 +37,7 @@ public class JoinDemo {
             previousThread=thread;
         }
         TimeUnit.SECONDS.sleep(5);
-        System.out.println("Thread.currentThread().getName()+\" terminate.\" = " + Thread.currentThread().getName()+" terminate.");
+        System.out.println("ThreadSafe.Thread.currentThread().getName()+\" terminate.\" = " + Thread.currentThread().getName()+" terminate.");
 
     }
 

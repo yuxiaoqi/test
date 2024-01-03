@@ -1,7 +1,8 @@
-package lock;
+package ThreadSafe.lock;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
@@ -10,8 +11,11 @@ import java.util.concurrent.locks.ReentrantLock;
  * @Author yuxiaoqi
  * @Create 2017/12/20 下午12:04
  */
-public class LockTest {
-    ReentrantLock reentrantLock = new ReentrantLock();
+public class ReentrantLockTest {
+   static ReentrantLock reentrantLock = new ReentrantLock();
+  static   Condition condition =reentrantLock.newCondition();
+
+
 
 
     public void say()  {
@@ -29,8 +33,9 @@ public class LockTest {
     }
 
     public static void main(String[] args) {
-        LockTest lockTest = new LockTest();
+        ReentrantLockTest lockTest = new ReentrantLockTest();
         ExecutorService service = Executors.newFixedThreadPool(3);
+
 
         for (int i =0;i<10;i++){
             System.out.println("第"+i+"次");

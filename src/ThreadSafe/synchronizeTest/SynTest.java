@@ -1,4 +1,4 @@
-package synchronizeTest;
+package ThreadSafe.synchronizeTest;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

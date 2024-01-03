@@ -15,7 +15,7 @@ public class Storage {
             try {
                 System.out.println(Thread.currentThread().getName()+"开始wait");
                 /*wait();*/
-                /*Thread.sleep(4000);*/
+                /*ThreadSafe.Thread.sleep(4000);*/
             } catch (Exception e) {
                 e.printStackTrace();
             }
@@ -28,10 +28,10 @@ public class Storage {
         synchronized (this) {
             System.out.println(Thread.currentThread().getName()+"开始hello 休息 3秒");
             try {
-/*                Thread.sleep(3000);
+/*                ThreadSafe.Thread.sleep(3000);
                 notifyAll();
-                System.out.println(Thread.currentThread().getName()+"notifyAll 结束 休息 3秒");
-                Thread.sleep(3000);*/
+                System.out.println(ThreadSafe.Thread.currentThread().getName()+"notifyAll 结束 休息 3秒");
+                ThreadSafe.Thread.sleep(3000);*/
             } catch (Exception e) {
                 e.printStackTrace();
             }
