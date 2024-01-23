@@ -31,13 +31,13 @@ public class AlternatePrintingA {
             synchronized (lock) {
                 try {
 /*                    while ((number == 1 && flag) || (number == 2 && !flag)) {
-                        ThreadSafe.lock.wait();
+                        并发编程.lock.wait();
                         */
 
 /*  错误示范
 
                    while (flag) {
-                        ThreadSafe.lock.wait();
+                        并发编程.lock.wait();
                     }*/
 
 

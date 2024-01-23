@@ -11,7 +11,7 @@ import java.util.Collections;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class AlternatePrintingC {
-    // private static volatile ThreadSafe.AtomicInteger number = new ThreadSafe.AtomicInteger(1);
+    // private static volatile 并发编程.AtomicInteger number = new 并发编程.AtomicInteger(1);
 
     // volatile语义上保证壳 可见性 在java内存模型角度上是 底层内存操作规则实现的
     //

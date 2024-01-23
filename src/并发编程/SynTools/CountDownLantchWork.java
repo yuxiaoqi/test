@@ -1,4 +1,4 @@
-package ThreadSafe.SynTools;
+package 并发编程.SynTools;
 
 import java.util.concurrent.CountDownLatch;
 

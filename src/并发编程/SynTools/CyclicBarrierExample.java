@@ -1,4 +1,4 @@
-package ThreadSafe.SynTools;
+package 并发编程.SynTools;
 
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
@@ -16,7 +16,7 @@ public class CyclicBarrierExample {
         final int threadsCount = 3;
         CyclicBarrier cyclicBarrier = new CyclicBarrier(threadsCount, () -> {
             // 当所有线程都到达屏障点后执行的操作
-            System.out.println("All threads have reached the barrier. Let's do something...");
+            System.out.println(Thread.currentThread().getName() +"All threads have reached the barrier. Let's do something...");
         });
 
         for (int i = 0; i < threadsCount; i++) {

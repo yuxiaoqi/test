@@ -1,4 +1,4 @@
-package ThreadSafe.lock;
+package 并发编程.lock;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
