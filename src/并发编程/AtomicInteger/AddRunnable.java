@@ -1,4 +1,4 @@
-package ThreadSafe.AtomicInteger;
+package 并发编程.AtomicInteger;
 
 /**
  * @ClassName:

@@ -1,4 +1,4 @@
-package ThreadSafe.AtomicInteger;
+package 并发编程.AtomicInteger;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
