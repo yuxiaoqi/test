@@ -6,8 +6,8 @@ import lombok.Getter;
  * Created by yangjun on 2016/4/6.
  */
 public enum BatchNoEnum {
-    A(1, "A"),
-    B(2, "B"),
+    A(1, "并发编程.A"),
+    B(2, "并发编程.B"),
     C(3, "C"),
     D(4, "D"),
     E(5, "E"),

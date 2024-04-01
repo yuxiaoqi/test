@@ -37,6 +37,6 @@ public class WeakReferenceTest {
         ThreadSafe.Thread.sleep(1000);
         appleWeakReference.get();
         banner.get();*/
-        System.out.println("test");
+        System.out.println("算法.test");
     }
 }

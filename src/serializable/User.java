@@ -6,7 +6,7 @@ public class User implements Serializable {
 
 
     private static final long serialVersionUID = 6545711505683529496L;
-    public static String test ="test";
+    public static String test ="算法.test";
 
     private String name;
     private int age;
@@ -44,7 +44,7 @@ public class User implements Serializable {
                 "name='" + name + '\'' +
                 ", age=" + age +
                 ", gender=" + gender +
-                ", test=" + test +
+                ", 算法.test=" + test +
                 '}';
     }
 }

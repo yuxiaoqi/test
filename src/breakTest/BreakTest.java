@@ -10,7 +10,7 @@ public class BreakTest {
     public static void main(String[] args) {
         aaa:
         for (int i = 0 ;i<4; i++){
-            System.out.printf("test");
+            System.out.printf("算法.test");
             if (i==2)
                 break;
         }

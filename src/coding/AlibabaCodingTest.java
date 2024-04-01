@@ -25,8 +25,8 @@ public class AlibabaCodingTest {
 
     private static Map<Integer,String> mapLetter = new HashMap<Integer,String>(){
         {
-            put(1,"A");
-            put(2,"B");
+            put(1,"并发编程.A");
+            put(2,"并发编程.B");
             put(3,"C");
             put(4,"D");
             put(5,"E");
@@ -35,7 +35,7 @@ public class AlibabaCodingTest {
             put(8,"H");
         }
     };
-    // 初始化 1-，2—B,对应的26
+    // 初始化 1-，2—并发编程.B,对应的26
 
 
     public void printNumber(){

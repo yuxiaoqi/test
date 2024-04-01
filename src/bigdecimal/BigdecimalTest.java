@@ -13,7 +13,7 @@ public class BigdecimalTest {
         BigDecimal bigDecimal = new BigDecimal(23);
         BigDecimal bigDecimal1 = new BigDecimal(0);
         bigDecimal.subtract(bigDecimal1).toString();
-        System.out.println("test");
+        System.out.println("算法.test");
 
         Long a = null;
         String aa =a+"";

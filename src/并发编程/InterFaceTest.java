@@ -1,3 +1,5 @@
+package 并发编程;
+
 import com.sun.deploy.net.proxy.StaticProxyManager;
 
 /**

@@ -1,8 +1,6 @@
-/**
+package 算法; /**
  * 
  */
-
-import java.io.Serializable;
 
 /**
  *@ClassName:QueryOrderStatus.java
@@ -59,6 +57,6 @@ public class QueryOrderStatusResponse {
 
 	public static void main(String[] args) {
 		QueryOrderStatusResponse response = new QueryOrderStatusResponse();
-		System.out.println("test");
+		System.out.println("算法.test");
 	}
 }

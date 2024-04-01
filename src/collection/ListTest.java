@@ -39,7 +39,7 @@ public class ListTest {
                 System.out.println("数目:"+((strings==null) ? 0 : strings.size()) );
                 //区别
                 System.out.println("数目:"+(strings==null ? 0 : strings.size()) );
-                Lists.newArrayList("test");
+                Lists.newArrayList("算法.test");
 
 
 

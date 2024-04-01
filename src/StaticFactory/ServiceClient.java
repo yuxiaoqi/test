@@ -10,7 +10,7 @@ public class ServiceClient {
         //注册 provider
         Services.registerDefaultProvider(new ProviderHelloImpl());
         //注册 provider by name
-        Services.registerProvider("test",new ProviderHelloImpl());
+        Services.registerProvider("算法.test",new ProviderHelloImpl());
         //获取 服务
         Service service = Services.newInstance();
         //获取 services by name

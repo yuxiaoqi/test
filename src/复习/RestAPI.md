@@ -2,7 +2,7 @@
  
 ## 语义：
 
-* REST API（表现层状态转换应用程序接口）是一种基于表示性状态传递（REST）软件架构风格的网络应用程序接口。REST是一套**设计原则**，<span style="color: red;">用于建立处于客户端和服务器之间的交互的网络应用程序</span>
+* REST API （Representational State Transfer）（代表性 状态 转换 应用程序接口）是一种基于表示性状态传递（REST）软件架构风格的网络应用程序接口。REST是一套**设计原则**，<span style="color: red;">用于建立处于客户端和服务器之间的交互的网络应用程序</span>
   。客户端发送代表在服务器上执行的各种操作的请求，服务器返回响应。RESTful API 是那些遵从 REST 架构约束条件的 API。
 
 

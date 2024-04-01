@@ -1,3 +1,5 @@
+package 算法;
+
 /**
  * Created by admin on 2016/4/12.
  */

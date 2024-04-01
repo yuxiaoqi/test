@@ -10,7 +10,7 @@ import lombok.Data;
 
 public enum Elvis {
     //每一个实例 必须要
-    INstance("test") {
+    INstance("算法.test") {
         @Override
         public void test() {
 

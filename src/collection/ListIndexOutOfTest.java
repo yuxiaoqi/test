@@ -13,7 +13,7 @@ public class ListIndexOutOfTest {
         //集合加
         List<String> strings = new ArrayList<>();
         List<Integer> add=new ArrayList<>();
-        strings.add("test");
+        strings.add("算法.test");
         strings.size();
         //string
         String temp = strings.get(0);

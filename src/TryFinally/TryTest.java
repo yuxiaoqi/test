@@ -30,6 +30,6 @@ public class TryTest {
 
 
          new TryTest().aVoid();
-        System.out.println("test");
+        System.out.println("算法.test");
     }
 }

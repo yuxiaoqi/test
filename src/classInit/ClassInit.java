@@ -26,7 +26,7 @@ class Parent{
         System.out.println("parent  init --");
     }
     public void test(){
-        System.out.printf("parent----test");
+        System.out.printf("parent----算法.test");
     }
 }
 

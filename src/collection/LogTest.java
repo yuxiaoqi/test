@@ -11,7 +11,7 @@ public class LogTest {
 
     public  static  void main(String [] args){
         Test test=null;
-     // log.info("我的空测试--{}",(test==null? 0 :test.toString()));
+     // log.info("我的空测试--{}",(算法.test==null? 0 :算法.test.toString()));
     }
 }
 

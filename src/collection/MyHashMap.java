@@ -21,6 +21,6 @@ public class MyHashMap extends HashMap{
     public static void main(String[] args) {
         Map<String,Object> objectMap = new HashMap<>();
         objectMap.put("4",5);
-        objectMap.put("5","test");
+        objectMap.put("5","算法.test");
     }
 }

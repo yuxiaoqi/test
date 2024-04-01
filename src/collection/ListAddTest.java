@@ -11,7 +11,7 @@ import java.util.List;
  */
 public class ListAddTest {
     public static void main(String[] args) {
-        // git test
+        // git 算法.test
         List<String> stringList = new ArrayList<>();
         stringList.add("a");
         stringList.add("c");
@@ -19,7 +19,7 @@ public class ListAddTest {
         System.out.printf("  ",stringList);
         stringList.remove("b");
         stringList.add(1,"b");
-        System.out.printf("test");
+        System.out.printf("算法.test");
 
     }
 }

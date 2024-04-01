@@ -7,7 +7,7 @@ public class Child extends Parent {
     @Override
     public void test() {
         super.test();
-        System.out.println("test --child");
+        System.out.println("算法.test --child");
     }
 
     public static void main(String[] args) {

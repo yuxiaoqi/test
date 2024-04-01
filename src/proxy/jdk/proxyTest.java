@@ -20,7 +20,7 @@ public class proxyTest {
          3. invoke和add方法有什么对应关系？
          4. 生成的代理对象是什么样子的？
          */
-        String path = "/Users/yuxiaoqi/yyq学习/test/out/production/test/proxy/$Proxy0.class";
+        String path = "/Users/yuxiaoqi/yyq学习/算法.test/out/production/算法.test/proxy/$Proxy0.class";
         byte[] classFile = ProxyGenerator.generateProxyClass("$Proxy0",
                 BookFacedImpl.class.getInterfaces());
         FileOutputStream out = null;

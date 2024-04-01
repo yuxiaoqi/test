@@ -5,6 +5,6 @@ package ParentAndChild;
  */
 public class Parent {
     public void test(){
-        System.out.printf("test---parent");
+        System.out.printf("算法.test---parent");
     }
 }
